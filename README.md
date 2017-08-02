@@ -9,17 +9,25 @@
 ## Bandwidth Monitor (Indicator Netspeed - Unity)
 
 ```sudo apt-get install dconf-editor```
+
 ```sudo apt-add-repository ppa:fixnix/netspeed```
+
 ```sudo apt-get update```
+
 ```sudo apt-get install indicator-netspeed-unity```
 
 ## Most Dangerous Commands For Ubuntu
 
 ```rm command in Linux is used to delete files.```
+
 ```rm -r command deletes the folder recursively, even the empty folder.```
+
 ```rm -f command removes ‘Read only File’ without asking.```
+
 ```rm -rf / : Force deletion of everything in root directory.```
+
 ```rm -rf * : Force deletion of everything in current directory/working directory.```
+
 ```rm -rf . : Force deletion of current folder and sub folders.```
 
 ```:(){:|:&};:```
