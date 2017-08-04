@@ -25,12 +25,12 @@
 
 ```pico /etc/NetworkManager/NetworkManager.conf```
 
-####Add the following code at the end of this file
+#### Add the following code at the end of this file
 
 ```[device]
 wifi.scan-rand-mac-address=no```
 
-####After saving simply restart the network
+#### After saving simply restart the network
 
 ```sudo service network-manager restart```
 
