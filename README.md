@@ -8,22 +8,22 @@
 
 ## Bandwidth Monitor (Indicator Netspeed - Unity)
 
-```sudo apt-get install dconf-editor```
-
-```sudo apt-add-repository ppa:fixnix/netspeed```
-
-```sudo apt-get update```
-
-```sudo apt-get install indicator-netspeed-unity```
+```
+sudo apt-get install dconf-editor
+sudo apt-add-repository ppa:fixnix/netspeed
+sudo apt-get update
+sudo apt-get install indicator-netspeed-unity
+```
 
 ## Ubuntu 17.04
 ### If Wifi is not connecting
 
 #### Edit the file /etc/NetworkManager/NetworkManager.conf
 
-```sudo su```
-
-```pico /etc/NetworkManager/NetworkManager.conf```
+```
+sudo su
+pico /etc/NetworkManager/NetworkManager.conf
+```
 
 #### Add the following code at the end of this file
 
