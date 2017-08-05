@@ -36,6 +36,9 @@ wifi.scan-rand-mac-address=no
 
 ```sudo service network-manager restart```
 
+## How to install Git on Ubuntu
+
+```sudo apt-get install git```
 
 ## Most Dangerous Commands For Ubuntu
 
