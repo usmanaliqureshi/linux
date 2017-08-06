@@ -1,4 +1,4 @@
-# Linux Stuff
+# All About Ubuntu
 
 ## Move Unity Launcher (Icon Bar)
 
