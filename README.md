@@ -5,7 +5,7 @@
 * You can install Chromium from Ubuntu Store as Google Chrome is no more available for 32bit Ubuntu.
 
 ## Ubuntu 14.04
-## Activating Colored Bash (if not enabled before)
+### Activating Colored Bash (if not enabled before)
 
 Open ```~/.bashrc``` in text editor and uncomment line: ```#force_color_prompt=yes``` to be: ```force_color_prompt=yes```
 
@@ -19,13 +19,13 @@ save the file and restart bashrc:
 ```source ~/.bashrc```
 
 ## Ubuntu 16.04
-## Move Unity Launcher (Icon Bar)
+### Move Unity Launcher (Icon Bar)
 
 ```gsettings set com.canonical.Unity.Launcher launcher-position Bottom```
 
 ```gsettings set com.canonical.Unity.Launcher launcher-position Left```
 
-## Bandwidth Monitor (Indicator Netspeed - Unity)
+### Bandwidth Monitor (Indicator Netspeed - Unity)
 
 ```
 sudo apt-get install dconf-editor
@@ -57,11 +57,11 @@ wifi.scan-rand-mac-address=no
 
 ```sudo service network-manager restart```
 
-## How to install Git on Ubuntu
+### How to install Git on Ubuntu
 
 ```sudo apt-get install git```
 
-## Most Dangerous Commands For Ubuntu
+### Most Dangerous Commands For Ubuntu
 
 ```rm command in Linux is used to delete files.```
 
