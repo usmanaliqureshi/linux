@@ -1,5 +1,9 @@
 # All About Ubuntu
 
+## Ubuntu 32 bit (i686)
+
+* You can install Chromium from Ubuntu Store as Google Chrome is no more available for 32bit Ubuntu.
+
 ## Ubuntu 14.04
 ## Activating Colored Bash (if not enabled before)
 
