@@ -5,9 +5,13 @@ This is the list of the most dangerous commands which you should never use in ub
 ```rm command in Linux is used to delete files.```
 
 ```rm -r command deletes the folder recursively, even the empty folder.```
+
 ```rm -f command removes ‘Read only File’ without asking.```
+
 ```rm -rf / : Force deletion of everything in root directory.```
+
 ```rm -rf * : Force deletion of everything in current directory/working directory.```
+
 ```rm -rf . : Force deletion of current folder and sub folders.```
 
 ```:(){:|:&};:```
