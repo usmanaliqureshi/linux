@@ -5,6 +5,8 @@
 # More Scripts available at https://github.com/usmanaliqureshi/linux
 #
 
+if [[ `id -u` -ne 0 ]] ; then echo "Please run as root by typing sudo ./site-create.sh" ; exit 1 ; fi
+
 echo ""
 echo "######################################"
 echo "#                                    #"
@@ -48,8 +50,7 @@ echo " -> Apache is restarted "
 echo ""
 
 echo ""
-
-echo ""
 echo " -=  All Done - Have fun =- "
+echo ""
 echo " You can access the website now at http://"$webname
 echo ""
