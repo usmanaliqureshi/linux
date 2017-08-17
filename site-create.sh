@@ -5,6 +5,7 @@
 # More Scripts available at https://github.com/usmanaliqureshi/linux
 #
 
+### Checking if the script is running from root ###
 if [[ `id -u` -ne 0 ]] ; then echo "Please run as root by typing sudo ./site-create.sh" ; exit 1 ; fi
 
 echo ""
@@ -15,13 +16,15 @@ echo "#                                    #"
 echo "######################################"
 echo ""
 
-echo " -> Website Name: " 
+### Asking for the website name ###
+echo " -> Website Domain Name (Example: usmanali.dev): " 
 read webname
 
 echo ""
 sudo echo " -> Setting Up Virtual Host for $webname"
 echo ""
 
+### Adding the Virtual Host ###
 (sudo echo " " >> /etc/apache2/sites-available/000-default.conf) 1>/dev/null
 (sudo echo "<VirtualHost *:80>" >> /etc/apache2/sites-available/000-default.conf) 1>/dev/null
 (sudo echo "	ServerName "$webname >> /etc/apache2/sites-available/000-default.conf) 1>/dev/null
@@ -36,13 +39,16 @@ echo ""
 echo " -> Creating Directory and Setting Up Web Access" $webname
 echo ""
 
+### Setting Up Website Access ###
 (sudo mkdir /var/www/html/$webname) 1>/dev/null
 (sudo chmod go+w /var/www/html/$webname) 1>/dev/null
 (sudo touch /var/www/html/$webname/index.php) 1>/dev/null
 (sudo echo "<?php echo 'It works! You Rock :)'; ?>" >> /var/www/html/$webname/index.php) 1>/dev/null
 
+### Setting Up Local Hostname ###
 (sudo echo "127.0.0.1	"$webname >> /etc/hosts) 1>/dev/null
 
+### Restarting Apache2 ###
 (sudo service apache2 restart) 1>/dev/null 2>/dev/null
 
 echo ""
