@@ -33,7 +33,7 @@ save the file and restart bashrc:
 
 ```gsettings set com.canonical.Unity.Launcher launcher-position Left```
 
-### Bandwidth Monitor (Indicator Netspeed - Unity)
+### Bandwidth Monitor (Indicator Netspeed - Unity) (Works on both Ubuntu 14 & 16)
 
 ```
 sudo apt-get install dconf-editor

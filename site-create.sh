@@ -85,7 +85,7 @@ then
 fi
 
 echo ""
-echo " -=  All Done - Have fun =- "
+echo " -=  All Done - Have Fun =- "
 echo ""
 echo " You can access the website now at http://"$webname
 echo ""
