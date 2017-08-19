@@ -5,6 +5,15 @@
 * You can install Chromium from Ubuntu Store as Google Chrome is no more available for 32bit Ubuntu.
 
 ## Ubuntu 14.04
+
+### Open Terminal Anywhere
+
+```sudo apt-get install nautilus-open-terminal```
+
+```nautilus -q```
+
+Once done then you you can right click on any folder to open terminal in that folder.
+
 ### Activating Colored Bash (if not enabled before)
 
 Open ```~/.bashrc``` in text editor and uncomment line: ```#force_color_prompt=yes``` to be: ```force_color_prompt=yes```
