@@ -55,6 +55,29 @@ echo ""
 echo " -> Apache is restarted "
 echo ""
 
+### @function to install WordPress ###
+function wpinstall () {
+  echo ""
+  echo "Downloading the Latest version of WordPress"
+  echo ""
+  (wget https://wordpress.org/latest.tar.gz -P /tmp/) 1>/dev/null
+  (tar -zxvf /tmp/latest.tar.gz -C /tmp/) 1>/dev/null
+  (rm -rf /tmp/latest.tar.gz) 1>/dev/null
+  (rm -rf /var/www/html/$webname/index.php) 1>/dev/null
+  (mv /tmp/wordpress/* /var/www/html/$webname) 1>/dev/null
+  (sudo chmod go+w /var/www/html/$webname) 1>/dev/null
+}
+
+### Asking for WordPress ###
+echo " -> Do you also want to install WordPress in "
+read wpanswer
+
+### Making sure the user wants it ###
+if [ $wpanswer = "yes" ] || [ $wpanswer = "y" ]
+then
+  wpinstall
+fi
+
 echo ""
 echo " -=  All Done - Have fun =- "
 echo ""
