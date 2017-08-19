@@ -71,7 +71,8 @@ function wpinstall () {
   (rm -rf /tmp/latest.tar.gz) 1>/dev/null
   (rm -rf /var/www/html/$webname/index.php) 1>/dev/null
   (mv /tmp/wordpress/* /var/www/html/$webname) 1>/dev/null
-  (sudo chmod go+w /var/www/html/$webname) 1>/dev/null
+  (chmod go+w /var/www/html/$webname) 1>/dev/null
+  (chown -R www-data:www-data /var/www/html/$webname) 1>/dev/null
 }
 
 ### Asking for WordPress ###
