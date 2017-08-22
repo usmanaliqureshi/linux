@@ -1,6 +1,6 @@
 # Most Dangerous Commands For Ubuntu
 
-This is the list of the most dangerous commands which you should never use in ubuntu linux.
+This is a list of the most dangerous commands which you should never try to use in ubuntu.
 
 ```rm command in Linux is used to delete files.```
 
