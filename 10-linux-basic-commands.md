@@ -73,3 +73,5 @@ As a user, you often need to view some of text or code from your script. Again, 
 And the last one is poweroff. Sometimes you need to poweroff directly from your terminal. This command will do the task. Don't forget to add sudo at the beginning of the command since it needs root permission to execute poweroff.
 
 ```$ sudo poweroff```
+
+That's all :)
