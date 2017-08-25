@@ -3,7 +3,6 @@
 # Author: Usman Ali Qureshi (usman@usmanaliqureshi.com)
 #
 # More Scripts are available at https://github.com/usmanaliqureshi/linux
-
 ### Checking if the script is running from root ###
 if [[ `id -u` -ne 0 ]] ;
 then
@@ -24,14 +23,14 @@ echo ""
 sudo apt-get install apache2
 echo ""
 
-echo "### Installing MySQL-Server & Php5-MySQL ###"
+echo "### Installing MySQL-Server###"
 echo ""
 sudo apt-get install mysql-server php5-mysql
 sudo mysql_install_db
 sudo mysql_secure_installation
 echo ""
 
-echo "### Installing Php5 and relevant packages ###"
+echo "### Installing Php 5 and relevant packages ###"
 echo ""
 sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
 mv /etc/apache2/mods-enabled/dir.conf /etc/apache2/mods-enabled/dir.conf.backup
