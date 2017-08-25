@@ -12,6 +12,11 @@ echo "   Please run as root by typing sudo ./javainstall.sh   "
 echo "" ;
 exit 1 ;
 fi
+
+echo ""
+
+echo "  -> Installing Latest Version of Java (Oracle) "
 sudo add-apt-repository ppa:webupd8team/java -y
 sudo apt-get update
 sudo apt-get install oracle-java8-installer
+echo ""
