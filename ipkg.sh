@@ -24,19 +24,16 @@ echo ""
 echo ""
 echo " ->  Installing git and htop "
 echo ""
-
 (sudo apt-get install -y git htop) 1>/dev/null
 
 echo ""
 echo " ->  Installing java for linux "
 echo ""
-
 (sudo apt-get install -y icedtea-7-plugin openjdk-7-jre) 1>/dev/null
 
 echo ""
 echo " ->  Installing flash plugin "
 echo ""
-
 (sudo apt-get install flashplugin-installer) 1>/dev/null
 
 echo ""
