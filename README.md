@@ -1,16 +1,15 @@
-# All About Ubuntu
+# Ubuntu 14.04
 
 ## Ubuntu 32 bit (i686)
 
 * If you are using 32 bit Ubuntu Distro then you can install *Chromium from Ubuntu Store* as Google Chrome is no more available for 32bit Ubuntu.
 
-## Ubuntu 14.04
-
 ### Open Terminal Anywhere
 
-```sudo apt-get install nautilus-open-terminal```
-
-```nautilus -q```
+```
+sudo apt-get install nautilus-open-terminal
+nautilus -q
+```
 
 Once done then you you can right click on any folder to open terminal in that folder.
 
@@ -18,7 +17,7 @@ Once done then you you can right click on any folder to open terminal in that fo
 
 Open ```~/.bashrc``` in text editor and uncomment line: ```#force_color_prompt=yes``` to be: ```force_color_prompt=yes```
 
-Save then execute source ```~/.bashrc```
+Save, then execute source ```~/.bashrc```
 
 Open ```~/.bashrc``` in an editor and copy this and add it at the end of .bashrc file:
 
@@ -28,17 +27,14 @@ save the file and restart bashrc:
 ```source ~/.bashrc```
 
 ### Install Java on Ubuntu 14.04
-
 ```sudo apt-get install icedtea-7-plugin openjdk-7-jre```
 
 ### Install Flash on Ubuntu 14.04
-
 ```sudo apt-get install flashplugin-installer```
 
-## Ubuntu 16.04
+# Ubuntu 16.04
 
 ### Move Unity Launcher (Icon Bar)
-
 ```gsettings set com.canonical.Unity.Launcher launcher-position Bottom```
 
 ```gsettings set com.canonical.Unity.Launcher launcher-position Left```
@@ -54,7 +50,7 @@ sudo apt-get install indicator-netspeed-unity
 
 Once the installation is finished, then go to search and type indicator netspeed and click on the application which appears right below to run the Indicator Netspeed - Unity.
 
-## Ubuntu 17.04
+# Ubuntu 17.04
 ### If Wifi is not connecting
 
 #### Edit the file /etc/NetworkManager/NetworkManager.conf
