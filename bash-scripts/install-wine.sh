@@ -27,13 +27,13 @@ echo ""
 
 add-apt-repository ppa:ubuntu-wine/ppa
 
-apt-get update
+(apt-get update) 1>/dev/null
 
 apt-get install wine1.8 winetricks
 
 dpkg --add-architecture i386
 add-apt-repository ppa:wine/wine-builds
 
-apt-get update
+(apt-get update) 1>/dev/null
 
 apt-get install --install-recommends winehq-devel
