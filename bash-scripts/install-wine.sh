@@ -6,6 +6,7 @@
 #
 
 ### Checking if the script is running from root ###
+
 if [[ `id -u` -ne 0 ]] ;
 then
 echo ""
@@ -23,10 +24,16 @@ echo "#####################################"
 echo ""
 
 ############# Installing Wine #############
+
 add-apt-repository ppa:ubuntu-wine/ppa
+
 apt-get update
+
 apt-get install wine1.8 winetricks
+
 dpkg --add-architecture i386
 add-apt-repository ppa:wine/wine-builds
+
 apt-get update
+
 apt-get install --install-recommends winehq-devel
