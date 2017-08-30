@@ -15,9 +15,7 @@ Once done then you you can right click on any folder to open terminal in that fo
 
 ### Activating Colored Bash (if not enabled before)
 
-Open ```~/.bashrc``` in text editor and uncomment line: ```#force_color_prompt=yes``` to be: ```force_color_prompt=yes```
-
-Save, then execute source ```~/.bashrc```
+Open ```~/.bashrc``` in text editor and uncomment line: ```#force_color_prompt=yes``` to be: ```force_color_prompt=yes``` and save, then execute source ```~/.bashrc```
 
 Open ```~/.bashrc``` in an editor and copy this and add it at the end of .bashrc file:
 
