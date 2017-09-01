@@ -1,8 +1,7 @@
 #!/bin/bash
-#
 # Author: Usman Ali Qureshi (usman@usmanaliqureshi.com)
-#
 # More Scripts are available at https://github.com/usmanaliqureshi/linux
+
 ### Checking if the script is running from root ###
 if [[ `id -u` -ne 0 ]] ;
 then
