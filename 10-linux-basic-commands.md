@@ -22,9 +22,10 @@ Changing directory (cd) is the main command that always be in use in terminal. I
 
 Let's say I'm in /home directory and I want to move in usr directory which is always in the /home. Here is how I can use cd commands -
 
-```/home $ cd usr```
-
-```/home/usr $```
+```
+/home $ cd usr
+/home/usr $
+```
 
 ##4. mkdir
 
