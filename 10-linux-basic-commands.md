@@ -53,9 +53,10 @@ This command differs distro-by-distro. In Debian based Linux distributions, to i
 
 In other distributions, such as Fedora, Centos there are different package managers. Fedora used to have yum but now it has dnf. 
 
-```$ sudo apt-get update```
-
-```$ sudo dnf update```
+```
+$ sudo apt-get update
+$ sudo dnf update
+```
 
 ## 8. grep
 
