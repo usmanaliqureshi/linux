@@ -2,7 +2,7 @@
 
 This is a list of the most dangerous commands which you should never try to use in ubuntu.
 
-```rm command in Linux is used to delete files.```
+```rm``` command in Linux is used to delete files.
 
 ```rm -r command deletes the folder recursively, even the empty folder.```
 
