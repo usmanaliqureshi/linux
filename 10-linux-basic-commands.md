@@ -1,4 +1,4 @@
-# 10 Basic Linux Commands to Help Newbies Get Started
+# Basic Linux Commands to Help Newbies Get Started
 
 ## 1. sudo
 
