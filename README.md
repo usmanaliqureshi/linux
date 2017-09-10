@@ -42,7 +42,7 @@ sudo apt-get update
 sudo apt-get install indicator-netspeed-unity
 ```
 
-Once the installation is finished, then go to search and type indicator netspeed and click on the application which appears right below to run the Indicator Netspeed - Unity.
+Once the installation is finished, then go to search and type ```indicator netspeed``` and click on the application which appears right below to run the Indicator Netspeed - Unity.
 
 # Ubuntu 17.04
 ### If Wifi is not connecting
