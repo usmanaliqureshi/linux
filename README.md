@@ -9,7 +9,7 @@ sudo apt-get install nautilus-open-terminal
 nautilus -q
 ```
 
-Once it is done then you you can right click on any folder to open terminal in that folder.
+Once it is done then you can right click on any folder to open terminal in that folder.
 
 ### Enabling Colors in Bash (if not enabled before)
 Open ```~/.bashrc``` in text editor and uncomment line: ```#force_color_prompt=yes``` to be: ```force_color_prompt=yes``` and save, then execute source ```~/.bashrc```
