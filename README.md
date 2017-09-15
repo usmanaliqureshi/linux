@@ -46,8 +46,7 @@ Once the installation is finished, then go to search and type ```indicator netsp
 
 # Ubuntu 17.04
 ### If Wifi is not connecting
-
-#### Edit the file /etc/NetworkManager/NetworkManager.conf
+Edit the file ```/etc/NetworkManager/NetworkManager.conf```
 ```
 sudo su
 pico /etc/NetworkManager/NetworkManager.conf
