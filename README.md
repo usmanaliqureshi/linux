@@ -9,7 +9,7 @@ sudo apt-get install nautilus-open-terminal
 nautilus -q
 ```
 
-Once it is done then you can right click on any folder to open terminal in that folder.
+Once it is done then you can right click on any folder to open terminal in that folder
 
 ### Enabling Colors in Bash (if not enabled before)
 Open ```~/.bashrc``` in text editor and uncomment the line: ```#force_color_prompt=yes``` to be: ```force_color_prompt=yes``` and save, then execute source ```~/.bashrc```
@@ -42,7 +42,7 @@ sudo apt-get update
 sudo apt-get install indicator-netspeed-unity
 ```
 
-Once the installation is finished, then go to search and type ```indicator netspeed``` and click on the application which appears below to run the *Indicator Netspeed - Unity*.
+Once the installation is finished, then go to search and type ```indicator netspeed``` and click on the application which appears below to run the *Indicator Netspeed - Unity*
 
 # Ubuntu 17.04
 ### If Wifi is not connecting
