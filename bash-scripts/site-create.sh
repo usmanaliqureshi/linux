@@ -3,6 +3,7 @@
 # More Scripts available at https://github.com/usmanaliqureshi/linux
 
 ### Checking if the script is running from root ###
+
 if [[ `id -u` -ne 0 ]] ;
 then
 echo ""
