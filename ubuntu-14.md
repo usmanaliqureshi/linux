@@ -2,7 +2,7 @@
 # Ubuntu 14.04
 
 ## Ubuntu 32 bit (i686)
-If you are using 32bit Ubuntu Distro then you can install *Chromium from Ubuntu Store* because Google Chrome is no more available for 32bit Ubuntu.
+If you are using 32 bit Ubuntu then you can install *Chromium from Ubuntu Store* because Google Chrome is no more available for 32bit Ubuntu.
 
 ### Open Terminal Anywhere
 ```
