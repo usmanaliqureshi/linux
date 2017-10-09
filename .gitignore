@@ -62,6 +62,7 @@ node_modules
 
 # PhpStrom Project Files #
 .idea/
+.idea/*
 library/vendors/composer
 resources/img/.DS_Store
 resources/sass/HTML
