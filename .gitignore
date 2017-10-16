@@ -34,17 +34,6 @@ Thumbs.db
 **/.sass-cache/*
 **/.map
 
-# Composer #
-##########
-library/vendors/composer/
-!resources/js/vendor/
-wpcs/
-composer.lock
-
-# Bower #
-##########
-resources/bower_components/*
-
 # Codekit #
 ##########
 /codekit-config.json
