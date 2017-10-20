@@ -14,7 +14,6 @@ fi
 clear
 
 echo 
-echo 
 echo "This information is brought to you by $0."
 echo
 
