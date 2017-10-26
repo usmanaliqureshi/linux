@@ -35,6 +35,7 @@ save the file and restart bashrc:
 ```gsettings set com.canonical.Unity.Launcher launcher-position Left```
 
 ### Bandwidth Monitor (Indicator Netspeed - Unity) (Works on both Ubuntu 14 & 16)
+
 ```
 sudo apt-get install dconf-editor
 sudo apt-add-repository ppa:fixnix/netspeed
@@ -47,7 +48,9 @@ Once the installation is finished, you can go to search and type ```indicator ne
 # Ubuntu 17.04
 
 ### If Wifi is not connecting
+
 Edit the file ```/etc/NetworkManager/NetworkManager.conf```
+
 ```
 sudo su
 pico /etc/NetworkManager/NetworkManager.conf
