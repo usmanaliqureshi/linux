@@ -22,14 +22,17 @@ save the file and restart bashrc:
 ```source ~/.bashrc```
 
 ### Install Java on Ubuntu 14.04
+
 ```sudo apt-get install icedtea-7-plugin openjdk-7-jre```
 
 ### Install Flash on Ubuntu 14.04
+
 ```sudo apt-get install flashplugin-installer```
 
 # Ubuntu 16.04
 
 ### Move Unity Launcher (Icon Bar)
+
 ```gsettings set com.canonical.Unity.Launcher launcher-position Bottom```
 
 ```gsettings set com.canonical.Unity.Launcher launcher-position Left```
