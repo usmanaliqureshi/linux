@@ -6,6 +6,7 @@
 If you are using 32 bit Ubuntu then you can install *Chromium from Ubuntu Store* because Google Chrome is no more available for 32bit Ubuntu.
 
 ### Open Terminal Anywhere
+
 ```
 sudo apt-get install nautilus-open-terminal
 nautilus -q

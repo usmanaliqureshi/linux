@@ -12,6 +12,7 @@ nautilus -q
 Once it is done then you can right click on any folder to open terminal in that folder
 
 ### Enabling Colors in Bash (if not enabled before)
+
 Open ```~/.bashrc``` in text editor and uncomment the line: ```#force_color_prompt=yes``` to be: ```force_color_prompt=yes``` and save, then execute source ```~/.bashrc```
 
 Open ```~/.bashrc``` in an editor and copy this and add it at the end of ```.bashrc``` file:
