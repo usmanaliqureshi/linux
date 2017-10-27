@@ -1,9 +1,11 @@
 # Ubuntu 14.04
 
 ## Ubuntu 32 bit (i686)
+
 If you are using 32bit Ubuntu Distro then you can install *Chromium from Ubuntu Store* because Google Chrome is no more available for 32bit Ubuntu.
 
 ### Open Terminal Anywhere
+
 ```
 sudo apt-get install nautilus-open-terminal
 nautilus -q
@@ -61,13 +63,16 @@ pico /etc/NetworkManager/NetworkManager.conf
 ```
 
 #### Add the following code at the end of this file
+
 ```
 [device]
 wifi.scan-rand-mac-address=no
 ```
 
 #### After saving simply restart the network
+
 ```sudo service network-manager restart```
 
 ### How to install Git on Ubuntu
+
 ```sudo apt-get install git```
