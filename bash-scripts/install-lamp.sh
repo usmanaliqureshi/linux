@@ -6,7 +6,7 @@
 if [[ `id -u` -ne 0 ]] ;
 then
 echo ""
-echo "   Please run as root by typing sudo ./install-lamp.sh   "
+echo "   Please run as root by typing: sudo ./install-lamp.sh   "
 echo "" ;
 exit 1 ;
 fi
@@ -56,4 +56,4 @@ sudo php -v
 echo ""
 echo "All Done - Have Fun"
 echo ""
-echo "LAMP Server is ready to use - http://localhost/info.php"
+echo "[SUCCESS] LAMP Server is ready to use - http://localhost/info.php"
