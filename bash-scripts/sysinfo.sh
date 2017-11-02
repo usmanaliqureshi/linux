@@ -6,7 +6,7 @@
 if [[ `id -u` -ne 0 ]] ;
 then
 echo ""
-echo "   Please run as root by typing sudo ./sysinfo.sh   "
+echo "   Please run as root by typing: sudo ./sysinfo.sh   "
 echo "" ;
 exit 1 ;
 fi
