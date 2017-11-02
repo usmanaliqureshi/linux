@@ -7,7 +7,7 @@
 if [[ `id -u` -ne 0 ]] ;
 then
 echo ""
-echo "   Please run as root by typing sudo ./install-wine.sh   "
+echo "   Please run as root by typing: sudo ./install-wine.sh   "
 echo "" ;
 exit 1 ;
 fi
@@ -34,3 +34,6 @@ add-apt-repository ppa:wine/wine-builds
 (apt-get update) 1>/dev/null
 
 apt-get install --install-recommends winehq-devel
+
+echo "[SUCCESS] Wine is installed"
+echo ""
