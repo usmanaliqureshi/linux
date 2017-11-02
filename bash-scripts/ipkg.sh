@@ -6,7 +6,7 @@
 if [[ `id -u` -ne 0 ]] ;
 then
 echo ""
-echo "   Please run as root by typing sudo ./ipkg.sh   "
+echo "   Please run as root by typing: sudo ./ipkg.sh   "
 echo "" ;
 exit 1 ;
 fi
@@ -38,4 +38,7 @@ echo ""
 
 echo ""
 echo " -=  All Done - Have fun =- "
+echo ""
+
+echo "[SUCCESS] All Packages are installed"
 echo ""
