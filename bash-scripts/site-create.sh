@@ -7,7 +7,7 @@
 if [[ `id -u` -ne 0 ]] ;
 then
 echo ""
-echo "   Please run as root by typing sudo ./site-create.sh   "
+echo "   Please run as root by typing: sudo ./site-create.sh   "
 echo "" ;
 exit 1 ;
 fi
