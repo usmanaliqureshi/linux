@@ -20,6 +20,11 @@ echo "#####################################"
 echo ""
 
 echo ""
+echo " ->  Installing nano "
+echo ""
+(sudo apt-get install -y git nano) 1>/dev/null
+
+echo ""
 echo " ->  Installing git and htop "
 echo ""
 (sudo apt-get install -y git htop) 1>/dev/null
