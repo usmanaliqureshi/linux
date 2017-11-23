@@ -20,7 +20,7 @@ echo "#####################################"
 echo ""
 
 echo ""
-echo " ->  Installing nano "
+echo " ->  Installing the text editor nano "
 echo ""
 (sudo apt-get install -y git nano) 1>/dev/null
 
