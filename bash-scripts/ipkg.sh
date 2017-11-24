@@ -20,7 +20,7 @@ echo "#####################################"
 echo ""
 
 echo ""
-echo " ->  Installing the Text Editor NANO "
+echo " ->  Installing the Text Editor NANO/PICO "
 echo ""
 (sudo apt-get install -y git nano) 1>/dev/null
 
