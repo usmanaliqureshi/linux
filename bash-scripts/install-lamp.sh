@@ -46,9 +46,9 @@ echo ""
 
 echo "### Installing Php5-CLI ###"
 echo ""
-sudo apt-get install php5-cli
+sudo apt-get install php7.2-cli
 touch /var/www/html/info.php
-echo "<?php phpinfo(); ?>"
+echo "<?php phpinfo(); ?>" >> /var/www/html/info.php
 echo ""
 
 echo "### Php Version Info ###"
