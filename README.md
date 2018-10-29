@@ -40,6 +40,10 @@ save the file and restart bashrc:
 
 ```gsettings set com.canonical.Unity.Launcher launcher-position Left```
 
+### Click on icon to Minimize
+
+```gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'```
+
 ### Bandwidth Monitor (Indicator Netspeed - Unity) (Works on both Ubuntu 14 & 16)
 
 ```
