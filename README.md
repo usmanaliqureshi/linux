@@ -80,3 +80,11 @@ wifi.scan-rand-mac-address=no
 ### How to install Git on Ubuntu
 
 ```sudo apt-get install git```
+
+### Screen Recorder for Ubuntu
+
+```
+sudo add-apt-repository ppa:fossproject/ppa
+sudo apt update
+sudo apt install green-recorder
+```
