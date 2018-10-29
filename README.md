@@ -88,3 +88,11 @@ sudo add-apt-repository ppa:fossproject/ppa
 sudo apt update
 sudo apt install green-recorder
 ```
+
+### Timeshift - Backup/Restore Utitlity for Ubuntu
+
+```
+add-apt-repository ppa:teejee2008/ppa
+sudo apt update
+sudo apt-get install timeshift
+```
